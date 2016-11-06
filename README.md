@@ -1,6 +1,10 @@
 ## Website Performance Optimization portfolio project
 
-Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
+My challenge was to optimize [this online portfolio](https://github.com/udacity/frontend-nanodegree-mobile-portfolio) for speed! In particular, optimizing the critical rendering path and make this page render as quickly as possible by applying the techniques I've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
+
+##Running
+
+Check out or download the code and click on index.html to open
 
 ## Improvements Made
 
@@ -21,4 +25,5 @@ View changes without minification at index.original.html
 * 424: removeDetermineDX function and integrate functionality with changePizzaSizes
 * 444: only calculate container size for one pizza since all pizzas are the same size
 * 501: moved phase calculation outside the loop. This gets rid of Forced Reflow issue
+* 528: reduced number of pizzas, thereby less items to animate when scrolling
 
